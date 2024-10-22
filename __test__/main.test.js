@@ -16,4 +16,3 @@ test ("expect to get multiplication", ()=>{
 test ("deny division by zero", ()=> {
     expect(divide(4, 0)).toThrow("Division by zero is not allowed");
 })
-

@@ -14,6 +14,6 @@ export function multiply (e, f) {
 
 export function divide (g, h){
     if (h==0)
-        throw new Error ("Division by zero is not allowed");
+        throw new Error("Division by zero is not allowed");
     return g / h;
 }

@@ -1,0 +1,35 @@
+.todo-holder {
+  background-color: antiquewhite;
+  border: 0.2rem solid rgb(129, 145, 86);
+  padding: 4rem;
+  height: 100vh;
+  margin: 10rem;
+  text-align: center;
+  justify-content: center;
+}
+.todo-holder-heading {
+  color: rgb(49, 150, 117);
+  padding-bottom: 1rem;
+}
+
+.input-button {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.add-button-img {
+  height: 64px;
+  cursor: pointer;
+}
+input {
+  margin: 0.7rem;
+  width: 20rem;
+  height: 2rem;
+  border: 0.2rem solid rgb(73, 127, 22);
+}
+.add-task-button {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+}

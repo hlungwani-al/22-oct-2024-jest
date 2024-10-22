@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1729582640334" clover="3.2.0">
-  <project timestamp="1729582640334" name="All files">
+<coverage generated="1729600435453" clover="3.2.0">
+  <project timestamp="1729600435453" name="All files">
     <metrics statements="6" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="4" elements="12" coveredelements="10" complexity="0" loc="6" ncloc="6" packages="1" files="1" classes="1"/>
     <file name="main.js" path="/Users/damacm168/Documents/22-Oct-2024-Jest/main.js">
       <metrics statements="6" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="4"/>
