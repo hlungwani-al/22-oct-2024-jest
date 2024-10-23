@@ -4,21 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="./index.css" />
-    <script type="text/javascript" src="./main.js"></script>
+    <script type="text/javascript" src="./main.js" defer></script>
     <title>Jest Todo App</title>
+    <link type="image/png" rel="icon" href="./pics/weLogo.png" />
   </head>
   <body>
     <div class="todo-holder">
       <h1 class="todo-holder-heading">We to-do App</h1>
       <div class="input-button">
-        <input type="text" placeholder="Enter Task Here..." />
-        <button class="add-task-button">
-          <img src="./pics/icons8-add-64.png" class="add-button-img" />
-        </button>
-      </div>
+        <input type="text" placeholder=" Enter Task Here..." / id="todoInput">
 
-      <ul class="list-of-tasks">
-        <!-- dynamic list -->
+        <img
+          src="./pics/icons8-add-64.png"
+          alt="+"
+          class="add-button-img"
+          id="add-button-img"
+        />
+      </div>
+      <h4 id="message"></h4>
+      <ul class="list-of-tasks" id="list-of-tasks">
+        <!-- dynamic list from js will be added here -->
       </ul>
     </div>
   </body>
